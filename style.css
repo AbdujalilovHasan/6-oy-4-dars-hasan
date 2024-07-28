@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+#app {
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#users-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.user-card {
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.user-card h2 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.user-card p {
+    margin: 5px 0;
+    font-size: 16;
+}
